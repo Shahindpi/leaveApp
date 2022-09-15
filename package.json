@@ -1,0 +1,26 @@
+{
+  "name": "leaveApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i src/styles.css -o public/styles.css --watch",
+    "build": "npx tailwindcss -i src/styles.css -o public/styles.css --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahindpi/leaveApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahindpi/leaveApp/issues"
+  },
+  "homepage": "https://github.com/Shahindpi/leaveApp#readme"
+}

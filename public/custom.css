@@ -1,0 +1,58 @@
+
+
+
+
+/* Common classes */
+.page-wrapper{
+    background: #f7f7f7;
+    width: 100%;
+    height: 100vh;
+}
+
+.page-container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page-wrapper img{
+    width: 100%;
+}
+
+
+/* Navbar */
+.navbar{
+    padding: 15px;
+}
+
+.navbar__logo{
+    max-width: 160px;
+}
+
+.navbar__menu{
+
+}
+
+.navbar__menu--item{
+    padding: 0 20px;
+    position: relative;
+}
+
+.navbar__menu--item img{
+    width : 26px
+}
+
+.navbar__menu--item span{
+    position: absolute;
+    bottom: 20px;
+    left: 3px;
+    font-size: 10px;
+    background: #37b19d;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
