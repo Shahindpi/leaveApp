@@ -7,18 +7,36 @@
     <title>Leave Application</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="page-wrapper">
+        <!-- Navbar -->
         <section class="navbar page-container flex flex-nowrap justify-between items-center">
             <div class="navbar__logo">
                 <a href=""><img src="img/logo.png"> </a>
             </div>
             <div class="navbar__menu flex">
-                <div class="navbar__menu--item">Team</div>
-                <div class="navbar__menu--item">My Profile</div>
+                <div class="navbar__menu--item"><a href="">My Profile</a></div>
+                <div class="navbar__menu--item"><a href="">Team</a></div>
                 <div class="navbar__menu--item notification"><img src="img/bell.png"><span>99<sup>+</sup></span></div>
                 <div class="navbar__menu--item settings"><img src="img/settings.png"></div>
+            </div>
+        </section>
+        <section class="main-content-wrapper page-container">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="sidebar__content">
+                    <!-- Profile info -->
+                    <div class="sidebar__content--profile">
+                        <div class="profile__img"><img src="img/profile-img1.png" alt="Profile image"></div>
+                        <div class="profile__title">Anamul Islam Riyad...</div>
+                        <div class="profile__sub-title">Sr. Executive, Marketing</div>
+                        <div class="profile__cta">Apply For Leave</div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
