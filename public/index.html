@@ -7,6 +7,7 @@
     <title>Leave Application</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="library.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -21,11 +22,11 @@
             <div class="navbar__menu flex">
                 <div class="navbar__menu--item"><a href="">My Profile</a></div>
                 <div class="navbar__menu--item"><a href="">Team</a></div>
-                <div class="navbar__menu--item notification"><img src="img/bell.png"><span>99<sup>+</sup></span></div>
+                <div class="navbar__menu--item notification"><img src="img/bell.png"><span>99<!--<sup>+</sup> --></span></div>
                 <div class="navbar__menu--item settings"><img src="img/settings.png"></div>
             </div>
         </section>
-        <section class="main-content-wrapper page-container">
+        <section class="main-content-wrapper page-container custom-flex">
             <!-- Sidebar -->
             <div class="sidebar">
                 <div class="sidebar__content">
@@ -37,6 +38,14 @@
                         <div class="profile__cta">Apply For Leave</div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Leave status -->
+            <div class="leave-status custom-flex">
+                <div class="remaining-leave"></div>
+                <div class="leave-chart">
+                    Chart and status will be shown here
+                    
             </div>
         </section>
     </div>
