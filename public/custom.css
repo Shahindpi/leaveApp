@@ -79,34 +79,39 @@
     font-weight: 600;
 }
 
-/* Main Content */
-.main-content-wrapper .sidebar{
+/* Main Content - Left Sidebar */
+.main-content-wrapper {
+    align-items: flex-start;
+}
+
+.main-content-wrapper .left-sidebar{
     background: #fff;
-    padding: 50px 25px 25px;
+    padding: 50px 0 25px;
     border-radius: 30px;
-    width: 25%;
+    width: 30%;
 }
 
-.main-content-wrapper .sidebar .sidebar__content{
+.main-content-wrapper .left-sidebar .left-sidebar__content{
 
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile{
     text-align: center;
+    padding: 0 25px;
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile .profile__img{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile .profile__img{
     width: 120px;
     margin: 0 auto;
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile .profile__img img{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile .profile__img img{
     border: 2px solid #fff;
     box-shadow: 3px 3px 20px 0px rgb(51 51 51 / 20%);
     border-radius: 30px;
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile .profile__title{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile .profile__title{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -114,7 +119,7 @@
     padding: 30px 0 15px;
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile .profile__sub-title{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile .profile__sub-title{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -122,7 +127,7 @@
     padding-bottom: 30px;
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile .profile__cta{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile .profile__cta{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -133,8 +138,155 @@
     border-radius: 10px;
 }
 
-.main-content-wrapper .sidebar .sidebar__content .sidebar__content--profile .profile__cta:hover{
+.main-content-wrapper .left-sidebar .left-sidebar__content .left-sidebar__content--profile .profile__cta:hover{
     background: #f7f7f7;
     color: #12B19E;
     transition: 0.5s ease-in-out;
+}
+
+/* Leave history */
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper{
+    padding: 30px 0;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history-wrapper__header{
+    align-items: flex-start;
+    padding: 25px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history-wrapper__header .header-text{
+
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history-wrapper__header .header-text .header-text__title a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #656565;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history-wrapper__header .header-text .header-text__sub-title a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: #b9b9b9;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history-wrapper__header .header-text .header-text__title a img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history-wrapper__header .header-dropdown form select{
+    width: 40px;
+    color: #b9b9b9;
+}
+
+/* Leave history list */
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list{
+    padding: 0 25px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item{
+    background: #FAEFD3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__icon{
+
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__icon img{
+
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__text{
+
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__text .single-item__text--title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #656565;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__text .single-item__text--sub-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #656565;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__text .single-item__text--type{
+    
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__text .single-item__text--type span:first-child{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #C38D00;
+}
+
+.main-content-wrapper .left-sidebar .left-sidebar__content .leave-history-wrapper .leave-history__list .leave-history__list--single-item .single-item__text .single-item__text--type span:last-child{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #ACACAC;
+}
+
+
+
+
+
+
+
+/* Leave status */
+.leave-status{
+    padding: 25px;
+    background: #fff;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.leave-status .leave-status__wrapper{
+    width: 100%;
+}
+
+.leave-status .leave-status__count{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.leave-status .leave-status__count .leave-status__count--single-item{
+    background: #f5f5f5;
+    border-radius: 16px;
+    width: 30%;
+    padding: 16px;
+    margin: 15px 0;
+}
+
+.leave-status .leave-status__count .leave-status__count--single-item .single-item__title{
+    color: #656565;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    max-width: 100px;
+    min-height: 42px;
+    align-items: center;
+    display: flex;
+}
+
+.leave-status .leave-status__count .leave-status__count--single-item .single-item__number{
+    color: #656565;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
 }
