@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leave Application</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="library.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8d329aab45.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leave Application</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="library.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8d329aab45.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
 </head>
 <body>
     <div class="page-wrapper">
@@ -146,38 +148,200 @@
                 </div>
             </div>
 
-            <!-- Leave status -->
-            <div class="main-content leave-status flex-box">
-                <div class="leave-status__wrapper">
-                    <div class="remaining-leave"></div>
-                    <div class="leave-chart">
-                        Chart and status will be shown here
+            <!-- Main content -->
+            <div class="main-content flex-box">
+                <!-- Content Navbar -->
+                <div class="main-content__navbar flex-box">
+                    <div class="main-content__navbar--col flex-box">
+                        <div class="main-content__navbar--item"> <a href="">Request</a> </div>
+                        <div class="main-content__navbar--item"><a href="">Approved</a> </div>
+                        <div class="main-content__navbar--item"><a href="">Rejected</a></div>
+                    </div>
+                    <div class="main-content__navbar--col">
+                        <div class="main-content__navbar--item"><a href="" class="flex-box">Extend View <img src="img/arrow.png" alt=""></a> </div>
                     </div>
                 </div>
-                <div class="leave-status__count flex-box">
-                    <div class="leave-status__count--single-item flex-box">
-                        <div class="single-item__title">Rewarded Leave</div>
-                        <div class="single-item__number">35</div>
+                <!-- All list -->
+                <div class="main-content__list">
+                    <div class="main-content__list--single-card">
+                        <div class="single-card__leave-info">
+                            <div class="single-card__leave-info--container flex-box">
+                                <div class="profile-img">
+                                    <img src="img/profile7.png" alt="">
+                                </div>
+                                <div class="profile-text">
+                                    <div class="profile-text__txt1 flex-box">
+                                        <h4>Mebub Orchi</h4>
+                                        <h5>ID: 32655</h5>
+                                        <h6>08 min ago</h6>
+                                        <div class="approve-auth">
+                                            <select>
+                                                <option selected>HR</option>
+                                                <option>Team Lead</option>
+                                                <option>Accounts</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="profile-text__txt2 flex-box">
+                                        <h5>Team Marketing</h5>
+                                        <span class="flex-box"><img src="img/sick.png" alt=""> Sick Leave</span>
+                                        <h6>Available: 03</h6>
+                                    </div>
+                                    <div class="profile-text__txt3">
+                                        <ul class="flex-box">
+                                            <li>Start - 10 Nov 22</li>
+                                            <li>End - 11 Nov 22</li>
+                                            <li>Working Day - 02</li>
+                                        </ul>
+                                    </div>
+                                    <div class="profile-text__txt4">
+                                        <ul class="flex-box">
+                                            <li>Cover Person: Mosaddek Tanzim</li>
+                                            <li>Not Approved</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-card__leave-status flex-box">
+                            <div class="single-card__leave-status--cta flex-box">
+                                <div class="cta-white">
+                                    <a href="">Reject</a>
+                                </div>
+                                <div class="cta-white">
+                                    <a href="">Approve</a>
+                                </div>
+                            </div>
+                            <div class="single-card__leave-status--msg">
+                                <a href="" class="flex-box">
+                                    <img src="img/icon-msg.png" alt="">
+                                    <span>1 Comment</span>
+                                </a>
+                            </div>
+                            <div class="single-card__leave-status--cta">
+                                <img src="img/arrow.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="leave-status__count--single-item flex-box">
-                        <div class="single-item__title">Casual Leave</div>
-                        <div class="single-item__number">01</div>
+                    <div class="main-content__list--single-card">
+                        <div class="single-card__leave-info">
+                            <div class="single-card__leave-info--container flex-box">
+                                <div class="profile-img">
+                                    <img src="img/profile7.png" alt="">
+                                </div>
+                                <div class="profile-text">
+                                    <div class="profile-text__txt1 flex-box">
+                                        <h4>Mebub Orchi</h4>
+                                        <h5>ID: 32655</h5>
+                                        <h6>08 min ago</h6>
+                                        <div class="approve-auth">
+                                            <select>
+                                                <option selected>HR</option>
+                                                <option>Team Lead</option>
+                                                <option>Accounts</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="profile-text__txt2 flex-box">
+                                        <h5>Team Marketing</h5>
+                                        <span class="flex-box"><img src="img/sick.png" alt=""> Sick Leave</span>
+                                        <h6>Available: 03</h6>
+                                    </div>
+                                    <div class="profile-text__txt3">
+                                        <ul class="flex-box">
+                                            <li>Start - 10 Nov 22</li>
+                                            <li>End - 11 Nov 22</li>
+                                            <li>Working Day - 02</li>
+                                        </ul>
+                                    </div>
+                                    <div class="profile-text__txt4">
+                                        <ul class="flex-box">
+                                            <li>Cover Person: Mosaddek Tanzim</li>
+                                            <li>Not Approved</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-card__leave-status flex-box">
+                            <div class="single-card__leave-status--cta flex-box">
+                                <div class="cta-white">
+                                    <a href="">Reject</a>
+                                </div>
+                                <div class="cta-white">
+                                    <a href="">Approve</a>
+                                </div>
+                            </div>
+                            <div class="single-card__leave-status--msg">
+                                <a href="" class="flex-box">
+                                    <img src="img/icon-msg.png" alt="">
+                                    <span>1 Comment</span>
+                                </a>
+                            </div>
+                            <div class="single-card__leave-status--cta">
+                                <img src="img/arrow.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="leave-status__count--single-item flex-box">
-                        <div class="single-item__title">Sick Leave</div>
-                        <div class="single-item__number">02</div>
-                    </div>
-                    <div class="leave-status__count--single-item flex-box">
-                        <div class="single-item__title">Emergency Leave</div>
-                        <div class="single-item__number">09</div>
-                    </div>
-                    <div class="leave-status__count--single-item flex-box">
-                        <div class="single-item__title">Paid Leave</div>
-                        <div class="single-item__number">04</div>
-                    </div>
-                    <div class="leave-status__count--single-item flex-box">
-                        <div class="single-item__title">Others Leave</div>
-                        <div class="single-item__number">09</div>
+                    <div class="main-content__list--single-card">
+                        <div class="single-card__leave-info">
+                            <div class="single-card__leave-info--container flex-box">
+                                <div class="profile-img">
+                                    <img src="img/profile7.png" alt="">
+                                </div>
+                                <div class="profile-text">
+                                    <div class="profile-text__txt1 flex-box">
+                                        <h4>Mebub Orchi</h4>
+                                        <h5>ID: 32655</h5>
+                                        <h6>08 min ago</h6>
+                                        <div class="approve-auth">
+                                            <select>
+                                                <option selected>HR</option>
+                                                <option>Team Lead</option>
+                                                <option>Accounts</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="profile-text__txt2 flex-box">
+                                        <h5>Team Marketing</h5>
+                                        <span class="flex-box"><img src="img/sick.png" alt=""> Sick Leave</span>
+                                        <h6>Available: 03</h6>
+                                    </div>
+                                    <div class="profile-text__txt3">
+                                        <ul class="flex-box">
+                                            <li>Start - 10 Nov 22</li>
+                                            <li>End - 11 Nov 22</li>
+                                            <li>Working Day - 02</li>
+                                        </ul>
+                                    </div>
+                                    <div class="profile-text__txt4">
+                                        <ul class="flex-box">
+                                            <li>Cover Person: Mosaddek Tanzim</li>
+                                            <li>Not Approved</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-card__leave-status flex-box">
+                            <div class="single-card__leave-status--cta flex-box">
+                                <div class="cta-white">
+                                    <a href="">Reject</a>
+                                </div>
+                                <div class="cta-white">
+                                    <a href="">Approve</a>
+                                </div>
+                            </div>
+                            <div class="single-card__leave-status--msg">
+                                <a href="" class="flex-box">
+                                    <img src="img/icon-msg.png" alt="">
+                                    <span>1 Comment</span>
+                                </a>
+                            </div>
+                            <div class="single-card__leave-status--cta">
+                                <img src="img/arrow.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
