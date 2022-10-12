@@ -1,0 +1,12 @@
+@media only screen and (max-width: 767px) {
+    
+    /* Show hide class */
+
+.m-hide{
+    display: none;
+}
+
+.d-hide{
+    display: block;
+}
+}
