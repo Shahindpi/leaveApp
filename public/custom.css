@@ -66,7 +66,7 @@
     background: #fff;
     padding: 50px 0 25px;
     border-radius: 30px;
-    width: 40%;
+    width: 38%;
 }
 
 .main-content-wrapper .left-sidebar .left-sidebar__content{
@@ -311,8 +311,12 @@
     border-bottom: 2px solid #656565;
 }
 
+.main-content__navbar--col:nth-child(2) .main-content__navbar--item a:hover{
+    border-bottom: none;
+}
+
 .main-content__navbar--item img{
-    width: 18px;
+    width: 12px;
     margin: 0 0 0 10px;
 }
 
@@ -503,7 +507,7 @@
 
 /* Right Sidebar */
 .right-sidebar{
-    width: 28%;
+    width: 27%;
     background: #fff;
     border-radius: 30px;
 }
